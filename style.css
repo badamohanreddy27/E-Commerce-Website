@@ -1,0 +1,93 @@
+/* Set default font and background color */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+	margin: 0;
+}
+h2 ,h3{
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+/* Style header */
+header {
+	background-color: #333;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+/* Style navigation bar */
+nav {
+	background-color: #666;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+}
+
+nav a:hover {
+	background-color: white;
+	color: #333;
+}
+
+/* Style main content */
+main {
+	margin: 20px;
+}
+
+section {
+	margin-bottom: 50px;
+}
+
+section h2 {
+	margin-top: 0;
+}
+
+section ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+section li {
+	background-color: white;
+	border: 1px solid #ccc;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+	margin: 10px;
+	padding: 20px;
+	text-align: center;
+	flex-basis: 30%;
+}
+
+section li img {
+	max-width: 100%;
+}
+
+section li h3 {
+	margin-top: 0;
+}
+
+section li p {
+	margin-bottom: 0;
+	font-size: 18px;
+	font-weight: bold;
+}
